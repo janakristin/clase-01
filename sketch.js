@@ -2,7 +2,7 @@ var a = 50, b = 80;
 var c;
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(windowWidth, windowHeight); 
   frameRate(10); //Especifica el número de cuadros mostrados                     por segundo.
 }
 
