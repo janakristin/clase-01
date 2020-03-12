@@ -1,9 +1,9 @@
-var a = 50, b = 80;
+var a = 20, b = 80;
 var c;
 
 function setup() {
   createCanvas(windowWidth, windowHeight); 
-  frameRate(10); //Especifica el número de cuadros mostrados                     por segundo.
+  frameRate(50); //Especifica el número de cuadros mostrados                     por segundo.
 }
 
 function draw() {
@@ -19,9 +19,9 @@ function draw() {
   background esta blanco 
  */
   //fill(0,50,100); //HSB
-  fill(random(0,30),100,100);
+  fill(random(200,300),random(50,100),100);
   noStroke();
-  c = a * random(1,5); // random contiene ([min],[max])
+  c = a * random(2,7); // random contiene ([min],[max])
   ellipse(mouseX,mouseY,c,c); //1, 2: posición, 3, 4: ancho                                 y altura
   /*
   ellipse(10,10,10,10); -> posición definido
