@@ -21,7 +21,7 @@ function draw() {
   //fill(0,50,100); //HSB
   fill(random(200,300),random(50,100),100);
   noStroke();
-  c = a * random(2,7); // random contiene ([min],[max])
+  c = a * random(3,7); // random contiene ([min],[max])
   ellipse(mouseX,mouseY,c,c); //1, 2: posición, 3, 4: ancho                                 y altura
   /*
   ellipse(10,10,10,10); -> posición definido
